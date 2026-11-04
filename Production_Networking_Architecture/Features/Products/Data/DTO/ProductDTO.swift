@@ -7,7 +7,6 @@
 
 import Foundation
 
-//DTO
 struct ProductDTO: Decodable {
     
     let id: Int
@@ -26,14 +25,4 @@ extension ProductDTO {
     func toDomain() -> Product {
         Product(id: id, name: productName, price: Decimal(price))
     }
-}
-
-struct Product: Identifiable {
-    let id: Int
-    let name: String
-    let price: Decimal
-}
-
-struct ProductResponseDTO: Decodable {
-    let products: [ProductDTO]
 }

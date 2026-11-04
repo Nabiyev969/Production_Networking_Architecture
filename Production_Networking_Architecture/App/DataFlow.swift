@@ -5,23 +5,22 @@
 //  Created by Anar Nabiyev on 04.11.26.
 //
 
-
-//ProductsView
+// ProductsView
 //      ↓
-//ProductsViewModel
+// ProductsViewModel
 //      ↓
-//ProductsRepository
+// ProductsRepository
 //      ↓
-//ProductsService
+// ProductsService
 //      ↓
-//APIClient
+// APIClient
 //      ↓
-//ProductsEndpoint
+// ProductsEndpoint
 //      ↓
-//RequestBuilder
+// RequestBuilder
 //      ↓
-//URLRequest
+// URLRequest
 //      ↓
-//URLSession
+// URLSession
 //      ↓
-//Backend
+// Backend

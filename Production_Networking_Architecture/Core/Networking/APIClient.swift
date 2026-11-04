@@ -24,7 +24,7 @@ final class APIClient: APIClientProtocol {
         self.decoder = decoder
     }
     
-    func send<Response>(_ endpoint: any Endpoint, as type: Response.Type) async throws -> Response where Response : Decodable {
+    func send<Response>(_ endpoint: any Endpoint, as type: Response.Type) async throws -> Response where Response: Decodable {
         
         let request = try requestBuilder.makeRequest(from: endpoint)
         

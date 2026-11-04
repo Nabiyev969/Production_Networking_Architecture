@@ -27,8 +27,7 @@ struct RequestBuilder {
         request.httpBody = endpoint.body
         
         endpoint.headers.forEach { key, value in
-            request
-                .setValue(value, forHTTPHeaderField: key)
+            request.setValue(value, forHTTPHeaderField: key)
         }
         
         return request

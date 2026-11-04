@@ -10,7 +10,6 @@ import Foundation
 protocol ProductsServiceProtocol {
     
     func fetchProducts(page: Int) async throws -> ProductResponseDTO
-    
     func fetchProduct(id: Int) async throws -> ProductDTO
 }
 

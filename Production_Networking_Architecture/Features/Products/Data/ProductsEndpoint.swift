@@ -26,7 +26,7 @@ enum ProductsEndpoint: Endpoint {
         .get
     }
     
-    var headers: [String : String] {
+    var headers: [String: String] {
         [:]
     }
     
